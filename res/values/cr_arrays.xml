@@ -397,6 +397,18 @@
       <item>2</item>
     </string-array>
 
+    <string-array name="pulse_custom_gravity_entries">
+       <item>@string/pulse_custom_gravity_bottom</item>
+       <item>@string/pulse_custom_gravity_top</item>
+       <item>@string/pulse_custom_gravity_center</item>
+    </string-array>
+
+    <string-array name="pulse_custom_gravity_values" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+    </string-array>
+
     <!-- Hardware key rebinding -->
     <string-array name="hardware_keys_action_entries" translatable="false">
         <item>@string/hardware_keys_action_nothing</item>
