@@ -1263,4 +1263,8 @@
     <string name="weather_icon_pack_info_title">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"\n Condition icon pack is used for weather icons on quick settings and sushi launcher at a glance</string>
     <string name="qsweather_settings_title">QuickSettings Weather</string>
     <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
+
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Toast app icon</string>
+    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
 </resources>
