@@ -1142,7 +1142,7 @@
     <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
 
     <!-- QS Transparency -->
-    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_title">QuickSettings transparency</string>
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
     
     <!-- QS tiles layout direction: vertical or horizontal -->
@@ -1241,12 +1241,16 @@
     <string name="qs_weather_title">QuickSettings weather</string>
     <string name="qs_weather_summary">Configure QuickSettings Weather</string>
     <string name="qs_weather_dialog_title">QuickSettings weather style</string>
+    <string name="qsweather_dialog_title">QuickSettings weather position</string>
     <string name="qs_weather_hidden">Hide weather</string>
     <string name="qs_temperature_image_show_scale">Show temp with scale and image</string>
     <string name="qs_temperature_image_hide_scale">Show temp with image without scale</string>
     <string name="qs_temperature_show_scale_hide_image">Show temp with scale</string>
     <string name="qs_temperature_hide_scale_hide_image">Show temp without scale</string>
     <string name="qs_show_image">Show image</string>
+    <string name="qsweather_position_qqs">Quick Settings</string>
+    <string name="qsweather_position_qsb">Quick Statusbar</string>
+    <string name="qsweather_position_both">Both</string>
     
     <!-- Omni weather -->
     <string name="qs_weather_settings_title">Weather Settings</string>
@@ -1257,4 +1261,6 @@
     <string name="weather_icon_pack_title">Condition icon pack</string>
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
     <string name="weather_icon_pack_info_title">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"\n Condition icon pack is used for weather icons on quick settings and sushi launcher at a glance</string>
+    <string name="qsweather_settings_title">QuickSettings Weather</string>
+    <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
 </resources>
