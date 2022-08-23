@@ -146,7 +146,7 @@
     <string name="lockscreen_charge_temp_unit_summary">Enable for Celcius, disable for Fahrenheit</string>
     <!-- Lockscreen clock color -->
     <string name="lockscreen_clock_color_title">Kilit ekranı saati rengi</string>
-    <string name="lockscreen_clock_color_summary">Kilit ekranı saati rengi için ikinci renk kullan, devre dışı bırakılırsa vurgu rengi kullanılır</string>
+    <string name="lockscreen_clock_color_summary">Use secondary color for lockscreen clock (requires reboot)</string>
     <!-- Button settings -->
     <string name="additional_buttons_title">Ek tuşlar</string>
     <string name="hardware_keys_power_key_title">Güç tuşu</string>
@@ -761,7 +761,7 @@
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <!-- Combined signal icons in status bar -->
     <string name="combined_status_bar_signal_icons_title">Birleşik sinyal simgeleri</string>
-    <string name="combined_status_bar_signal_icons_summary">WiFi ve mobil veri için birleşik tek bir simge göster</string>
+    <string name="combined_status_bar_signal_icons_summary">Show single combined icon for WiFi and mobile signal</string>
     <!-- Wifi/Bluetooth auto timeout -->
     <string name="wifi_timeout">WiFi zaman aşımı</string>
     <string name="wifi_timeout_summary">WiFi\'yi otomatik olarak kapatma</string>
@@ -872,8 +872,9 @@
     <!-- Fingerprint wake and unlock -->
     <string name="fp_wake_unlock_title">Parmak izi ile uyandırma ve kilit açma</string>
     <string name="fp_wake_unlock_summary">Ekran kapalıyken parmak izini dinleyin</string>
-    <!-- Color Palettes theme -->
-    <string name="color_palette_theme_title">System color palettes</string>
+    <!-- Black theme -->
+    <string name="vivid_theme_title">Vivid monet shades</string>
+    <string name="vivid_theme_summary">Darker and vibrant monet shades</string>
     <!-- Material dismiss all button for notifications -->
     <string name="notification_material_dismiss_title">Tüm bildirimleri temizleme tuşu</string>
     <string name="notification_material_dismiss_summary">Tümünü temizleme bildirim metnini materyal stili kayan tuş ile değiştirin</string>
@@ -967,7 +968,7 @@
     <string name="lockscreen_shortcuts">Kilit ekranı kısayolları</string>
     <string name="lockscreen_shortcuts_summary">Kilit ekranı kısayollarını özelleştir</string>
     <string name="notification_headers_title">Bildirim Başlığı</string>
-    <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster</string>
+    <string name="notification_headers_summary">Show headers in the notification shade(requires reboot)</string>
     <!-- IME button space -->
     <string name="navigation_bar_ime_space_title">Giriş yöntemi düzenleyicisi tuşu alanı</string>
     <string name="navigation_bar_ime_space_summary">Klavyenin altında giriş yöntemi düzenleyicisi tuş alanını göster</string>
@@ -984,7 +985,7 @@
     <string name="qs_footer_datausage_title">Veri kullanımı</string>
     <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
     <!-- QS Transparency -->
-    <string name="qs_transparency_title">Arka plan saydamlığı</string>
+    <string name="qs_transparency_title">QuickSettings transparency</string>
     <string name="qs_transparency_summary">Hızlı ayarlar arka planı için şeffaflık seviyesi ayarla</string>
     <!-- QS tiles layout direction: vertical or horizontal -->
     <string name="qs_tile_layout_category_title">Kare düzeni</string>
@@ -1051,23 +1052,44 @@
     <string name="statusbar_left_padding">Left padding</string>
     <string name="statusbar_right_padding">Right padding</string>
     <!-- QS Tile style -->
-    <string name="qs_tile_style_title">QS Tile style</string>
-    <string name="qs_tile_style_summary">Change quicksettings tile design</string>
+    <string name="qs_tile_style_title">Quicksettings style</string>
+    <string name="qs_tile_style_summary">Change quicksettings design (requires reboot)</string>
     <!-- QS Clock/Date Size -->
     <string name="status_bar_clock_font_size_title">Statusbar Clock font size</string>
     <string name="qs_clock_font_size_title">QS Header Clock font size</string>
     <string name="qs_date_title_size_title">QS Header Date font size</string>
     <string name="status_bar_show_clock_bg">Show clock background chip</string>
-    <!-- Color Palettes -->
-    <string name="black_theme">Black Theme</string>
-    <string name="vivid_theme">Vivid Theme</string>
     <!-- QuickSettings haptic feedback -->
     <string name="qs_tile_vibration_category_title">Tile vibration options</string>
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
     <string name="quick_settings_vibrate_duration_title">Vibration duration</string>
     <string name="quick_settings_vibrate_duration_summary">How many milliseconds to vibrate</string>
-    <!-- Force expanded media notification -->
-    <string name="artwork_media_force_expand_title">Force expanded media notification</string>
-    <string name="artwork_media_force_expand_summary">Always display media player notification as expanded</string>
+    <!-- QS Extras -->
+    <string name="qs_extras">Quick Settings Extras</string>
+    <!-- QS Weather Options -->
+    <string name="qs_weather_title">QuickSettings weather</string>
+    <string name="qs_weather_summary">Configure QuickSettings Weather</string>
+    <string name="qs_weather_dialog_title">QuickSettings weather style</string>
+    <string name="qsweather_dialog_title">QuickSettings weather position</string>
+    <string name="qs_weather_hidden">Hide weather</string>
+    <string name="qs_temperature_image_show_scale">Show temp with scale and image</string>
+    <string name="qs_temperature_image_hide_scale">Show temp with image without scale</string>
+    <string name="qs_temperature_show_scale_hide_image">Show temp with scale</string>
+    <string name="qs_temperature_hide_scale_hide_image">Show temp without scale</string>
+    <string name="qs_show_image">Show image</string>
+    <string name="qsweather_position_qqs">Show temp with image without scale</string>
+    <string name="qsweather_position_qsb">Show temp with scale</string>
+    <string name="qsweather_position_both">Show temp without scale</string>
+    <!-- Omni weather -->
+    <string name="qs_weather_settings_title">Weather Settings</string>
+    <string name="qs_weather_settings_summary">Setup icon pack and weather service</string>
+    <string name="weather_title">Weather Settings</string>
+    <string name="weather_config_title">Weather service</string>
+    <string name="weather_config_summary">System service settings</string>
+    <string name="weather_icon_pack_title">Condition icon pack</string>
+    <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
+    <string name="weather_icon_pack_info_title">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"\n Condition icon pack is used for weather icons on quick settings and sushi launcher at a glance</string>
+    <string name="qsweather_settings_title">QuickSettings Weather</string>
+    <string name="qsweather_settings_summary">Setup quicksettings weather views</string>
 </resources>
